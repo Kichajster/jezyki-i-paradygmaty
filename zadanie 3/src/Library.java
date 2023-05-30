@@ -200,10 +200,10 @@ public class Library {
     }
 
     public void examples() {
-        Book book1 = new Book("Pan Tadeusz", "Adam Mickiewicz", 1834, "Czytelnik", "9788373271891", "epopeja", true, "1");
-        Book book2 = new Book("Lalka", "Bolesław Prus", 1890, "Biblioteka Polska", "9788373270184", "powieść", true, "2");
-        Book book3 = new Book("Zbrodnia i kara", "Fiodor Dostojewski", 1866, "Wydawnictwo Literackie", "9788308036834", "powieść psychologiczna", true, "3");
-        Book book4 = new Book("Ferdydurke", "Witold Gombrowicz", 1937, "Wydawnictwo Literackie", "9788308040589", "powieść groteskowa", true, "4");
+        Book book1 = new Book("Lalka", "Bolesław Prus", 1890, "Biblioteka Polska", "9788373270184", "powieść", true, "1");
+        Book book2 = new Book("Pan Tadeusz", "Adam Mickiewicz", 1834, "Czytelnik", "9788373271891", "epopeja", true, "2");
+        Book book3 = new Book("Języki i Paradygmaty", "Jan Kowalski", 2023, "SAN", "1234567890123", "horror", true, "3");
+        Book book4 = new Book("Dziady", "Adam Mickiewicz", 1822, "Czytelnik", "9788308040589", "dramat", true, "4");
         bookList.add(book1);
         bookList.add(book2);
         bookList.add(book3);
