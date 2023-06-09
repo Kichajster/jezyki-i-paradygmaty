@@ -29,7 +29,7 @@ public class Library {
             }
         }
 
-        System.out.println("Podaj na ile dni chcesz wypożyczyć książkę: ");
+        System.out.println("Na ile dni chcesz wypożyczyć książkę: ");
         int days = Integer.parseInt(scanner.nextLine());
         System.out.println("Podaj imię osoby wypożyczającej książkę: ");
         String borrowerName = scanner.nextLine();
@@ -203,7 +203,7 @@ public class Library {
         Book book1 = new Book("Lalka", "Bolesław Prus", 1890, "Biblioteka Polska", "9788373270184", "powieść", true, "1");
         Book book2 = new Book("Pan Tadeusz", "Adam Mickiewicz", 1834, "Czytelnik", "9788373271891", "epopeja", true, "2");
         Book book3 = new Book("Języki i Paradygmaty", "Jan Kowalski", 2023, "SAN", "1234567890123", "horror", true, "3");
-        Book book4 = new Book("Dziady", "Adam Mickiewicz", 1822, "Czytelnik", "9788308040589", "dramat", true, "4");
+        Book book4 = new Book("Pan da 3", "Patryk Kulbaczyński", 1997, "Student SAN", "9788308040589", "dramat", true, "4");
         bookList.add(book1);
         bookList.add(book2);
         bookList.add(book3);
