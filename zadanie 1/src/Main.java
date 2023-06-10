@@ -12,8 +12,8 @@ public class Main {
         }
 
         String newWord = Number.convertNumberToWord(number2);
-        //String lettersOnly = newWord.replaceAll("\\s+", "");
-        //int count = lettersOnly.length();
+        String lettersOnly2 = newWord.replaceAll("\\s+", "");
+        int count2 = lettersOnly2.length();
         int count;
         int totalCount = 0;
         for (int i = 1; i <= 1000; i++) {
@@ -23,7 +23,7 @@ public class Main {
             totalCount = totalCount + count;
         }
         System.out.println("Wprowadzona liczba to: " + newWord);
-        // System.out.println("Ilość liter wynosi: " + count);
+        System.out.println("Ilość liter wynosi: " + count2);
         System.out.println("Ilość liter dla liczb od 1 do 1000 wynosi: " + totalCount);
     }
 }
